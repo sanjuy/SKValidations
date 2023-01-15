@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		E3F1D88B29743C0F0079FB08 /* SKValidations.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F1D88A29743C0F0079FB08 /* SKValidations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3F1D89529743C720079FB08 /* SKValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1D89429743C720079FB08 /* SKValidations.swift */; };
+		E3F1D8C329749D7F0079FB08 /* CustomFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1D8C229749D7F0079FB08 /* CustomFormatters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3F1D88729743C0F0079FB08 /* SKValidations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKValidations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F1D88A29743C0F0079FB08 /* SKValidations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKValidations.h; sourceTree = "<group>"; };
 		E3F1D89429743C720079FB08 /* SKValidations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKValidations.swift; sourceTree = "<group>"; };
+		E3F1D8C229749D7F0079FB08 /* CustomFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFormatters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				E3F1D88A29743C0F0079FB08 /* SKValidations.h */,
 				E3F1D89429743C720079FB08 /* SKValidations.swift */,
+				E3F1D8C229749D7F0079FB08 /* CustomFormatters.swift */,
 			);
 			path = SKValidations;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F1D89529743C720079FB08 /* SKValidations.swift in Sources */,
+				E3F1D8C329749D7F0079FB08 /* CustomFormatters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
