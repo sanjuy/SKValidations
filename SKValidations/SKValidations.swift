@@ -23,7 +23,6 @@ public struct SKValidations{
     public static func isValidMobile(_ mobile: String) -> Bool {
         return __phoneTest.evaluate(with: mobile)
     }
-    
 }
 
 
